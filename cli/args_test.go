@@ -2,10 +2,10 @@ package cli
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/options"
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/config"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/config"
 	"os"
 )
 
