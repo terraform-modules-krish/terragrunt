@@ -57,7 +57,7 @@ This configuration will cause Terragrunt to output `Will run Terraform` and then
 to Terraform.
 
 You can learn more about all the various configuration options supported in [the reference docs for the terraform
-block](/docs/reference/config-blocks-and-attributes/#terraform).
+block](https://github.com/terraform-modules-krish/terragrunt/blob/v0.42.1/docs/reference/config-blocks-and-attributes/#terraform).
 
 ## Error Hooks
 *Error hooks* are a special type of after hook that act as exception handlers. They allow you to specify a list of expressions that can be used to catch errors and run custom commands when those errors occur. Error hooks are executed after the before/after hooks.
