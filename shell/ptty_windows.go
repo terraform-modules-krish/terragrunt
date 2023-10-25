@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/sys/windows"
 
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/options"
 )
 
 // PrepareConsole enables support for escape sequences
