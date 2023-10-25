@@ -2,8 +2,8 @@ package cli
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"net/url"
