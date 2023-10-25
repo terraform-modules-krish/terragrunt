@@ -3,15 +3,15 @@ package runall
 import (
 	"sort"
 
-	awsproviderpatch "github.com/gruntwork-io/terragrunt/cli/commands/aws-provider-patch"
-	graphdependencies "github.com/gruntwork-io/terragrunt/cli/commands/graph-dependencies"
-	"github.com/gruntwork-io/terragrunt/cli/commands/hclfmt"
-	renderjson "github.com/gruntwork-io/terragrunt/cli/commands/render-json"
-	"github.com/gruntwork-io/terragrunt/cli/commands/terraform"
-	terragruntinfo "github.com/gruntwork-io/terragrunt/cli/commands/terragrunt-info"
-	validateinputs "github.com/gruntwork-io/terragrunt/cli/commands/validate-inputs"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/pkg/cli"
+	awsproviderpatch "github.com/terraform-modules-krish/terragrunt/cli/commands/aws-provider-patch"
+	graphdependencies "github.com/terraform-modules-krish/terragrunt/cli/commands/graph-dependencies"
+	"github.com/terraform-modules-krish/terragrunt/cli/commands/hclfmt"
+	renderjson "github.com/terraform-modules-krish/terragrunt/cli/commands/render-json"
+	"github.com/terraform-modules-krish/terragrunt/cli/commands/terraform"
+	terragruntinfo "github.com/terraform-modules-krish/terragrunt/cli/commands/terragrunt-info"
+	validateinputs "github.com/terraform-modules-krish/terragrunt/cli/commands/validate-inputs"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/pkg/cli"
 )
 
 const (
