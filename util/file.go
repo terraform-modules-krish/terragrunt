@@ -1,7 +1,7 @@
 package util
 
 import (
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 	"io/ioutil"
 	"os"
 	"path/filepath"
