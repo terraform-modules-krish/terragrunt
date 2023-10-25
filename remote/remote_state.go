@@ -2,10 +2,10 @@ package remote
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/shell"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"reflect"
 	"strconv"
 )
