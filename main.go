@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/gruntwork-io/terragrunt/cli"
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/shell"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/cli"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 // This variable is set at build time using -ldflags parameters. For more info, see:
