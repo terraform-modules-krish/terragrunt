@@ -7,8 +7,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/options"
 )
 
 // For windows, there is no concept of a pseudoTTY so we run as if there is no pseudoTTY.
