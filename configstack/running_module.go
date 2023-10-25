@@ -2,7 +2,7 @@ package configstack
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 	"strings"
 	"sync"
 )
