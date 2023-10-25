@@ -1,8 +1,8 @@
 package graphdependencies
 
 import (
-	"github.com/gruntwork-io/terragrunt/configstack"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/configstack"
+	"github.com/terraform-modules-krish/terragrunt/options"
 )
 
 // Run graph dependencies prints the dependency graph to stdout

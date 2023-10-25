@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gruntwork-io/go-commons/collections"
-	"github.com/gruntwork-io/terragrunt/pkg/errors"
+	"github.com/terraform-modules-krish/go-commons/collections"
+	"github.com/terraform-modules-krish/terragrunt/pkg/errors"
 )
 
 const errFlagUndefined = "flag provided but not defined:"
