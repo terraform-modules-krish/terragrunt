@@ -8,8 +8,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/go-commons/errors"
+	"github.com/terraform-modules-krish/terragrunt/options"
 	"github.com/stretchr/testify/assert"
 )
 

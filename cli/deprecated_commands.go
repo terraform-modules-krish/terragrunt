@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	runall "github.com/gruntwork-io/terragrunt/cli/commands/run-all"
-	"github.com/gruntwork-io/terragrunt/cli/commands/terraform"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/pkg/cli"
+	runall "github.com/terraform-modules-krish/terragrunt/cli/commands/run-all"
+	"github.com/terraform-modules-krish/terragrunt/cli/commands/terraform"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/pkg/cli"
 )
 
 // The following commands are DEPRECATED
