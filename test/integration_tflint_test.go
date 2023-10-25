@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"github.com/stretchr/testify/assert"
 )
 
