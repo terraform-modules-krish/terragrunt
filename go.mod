@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terragrunt
+module github.com/terraform-modules-krish/terragrunt
 
 go 1.20
 
@@ -9,7 +9,7 @@ require (
 	github.com/fatih/structs v1.1.0
 	github.com/go-errors/errors v1.0.2-0.20180813162953-d98b870cc4e0
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
-	github.com/gruntwork-io/terratest v0.32.6
+	github.com/terraform-modules-krish/terratest v0.32.6
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-getter v1.7.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -56,7 +56,7 @@ require (
 	google.golang.org/genproto v0.0.0-20221025140454-527a21cfbd71 // indirect
 )
 
-require github.com/gruntwork-io/gruntwork-cli v0.7.0
+require github.com/terraform-modules-krish/go-commons v0.7.0
 
 require (
 	cloud.google.com/go/compute v1.10.0 // indirect
