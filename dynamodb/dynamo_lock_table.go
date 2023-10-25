@@ -4,10 +4,10 @@ import (
 	"time"
 	"fmt"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 // Create the lock table in DynamoDB if it doesn't already exist

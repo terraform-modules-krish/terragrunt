@@ -3,9 +3,9 @@ package config
 import (
 	"io/ioutil"
 	"github.com/hashicorp/hcl"
-	"github.com/gruntwork-io/terragrunt/dynamodb"
-	"github.com/gruntwork-io/terragrunt/remote"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/dynamodb"
+	"github.com/terraform-modules-krish/terragrunt/remote"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 const TERRAGRUNT_CONFIG_FILE = ".terragrunt"
