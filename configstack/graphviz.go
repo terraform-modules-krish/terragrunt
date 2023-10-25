@@ -2,7 +2,7 @@ package configstack
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/options"
 	"io"
 	"path/filepath"
 	"strings"
