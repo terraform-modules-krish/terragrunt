@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terragrunt
+module github.com/terraform-modules-krish/terragrunt
 
 go 1.18
 
@@ -9,7 +9,7 @@ require (
 	github.com/fatih/structs v1.1.0
 	github.com/go-errors/errors v1.0.2-0.20180813162953-d98b870cc4e0
 	github.com/google/shlex v0.0.0-20181106134648-c34317bd91bf
-	github.com/gruntwork-io/terratest v0.32.6
+	github.com/terraform-modules-krish/terratest v0.32.6
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-getter v1.7.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -98,7 +98,7 @@ require (
 	github.com/googleapis/enterprise-certificate-proxy v0.2.0 // indirect
 	github.com/googleapis/gax-go/v2 v2.6.0 // indirect
 	github.com/goware/prefixer v0.0.0-20160118172347-395022866408 // indirect
-	github.com/gruntwork-io/gruntwork-cli v0.7.0 // indirect
+	github.com/terraform-modules-krish/go-commons v0.7.0 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-hclog v1.4.0 // indirect
 	github.com/hashicorp/go-plugin v1.4.8 // indirect
