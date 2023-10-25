@@ -4,9 +4,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/gruntwork-io/gruntwork-cli/collections"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/collections"
 
-	"github.com/gruntwork-io/terragrunt/pkg/errors"
+	"github.com/terraform-modules-krish/terragrunt/pkg/errors"
 	"github.com/hashicorp/go-multierror"
 )
 
