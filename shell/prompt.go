@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 	"bufio"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 // Prompt the user for text in the CLI. Returns the text entered by the user.
