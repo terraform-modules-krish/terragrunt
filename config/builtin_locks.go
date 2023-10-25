@@ -3,9 +3,9 @@ package config
 import (
 	"fmt"
 
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/locks"
-	"github.com/gruntwork-io/terragrunt/locks/dynamodb"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/locks"
+	"github.com/terraform-modules-krish/terragrunt/locks/dynamodb"
 )
 
 // lockFactory provides an implementation of Lock with the provided configuration map
