@@ -1,8 +1,8 @@
 package locks
 
 import (
-	"github.com/gruntwork-io/terragrunt/util"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 	"os"
 	"os/signal"
 )
