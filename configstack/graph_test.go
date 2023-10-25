@@ -1,7 +1,7 @@
 package configstack
 
 import (
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
