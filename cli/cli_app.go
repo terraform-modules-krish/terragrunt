@@ -10,24 +10,24 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gruntwork-io/terragrunt/tflint"
+	"github.com/terraform-modules-krish/terragrunt/tflint"
 
-	"github.com/gruntwork-io/gruntwork-cli/collections"
+	gruntwork-cli "github.com/terraform-modules-krish/go-commons/collections"
 	"github.com/hashicorp/go-multierror"
 	"github.com/mattn/go-zglob"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 
-	"github.com/gruntwork-io/terragrunt/aws_helper"
-	"github.com/gruntwork-io/terragrunt/cli/tfsource"
-	"github.com/gruntwork-io/terragrunt/codegen"
-	"github.com/gruntwork-io/terragrunt/config"
-	"github.com/gruntwork-io/terragrunt/configstack"
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/remote"
-	"github.com/gruntwork-io/terragrunt/shell"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/aws_helper"
+	"github.com/terraform-modules-krish/terragrunt/cli/tfsource"
+	"github.com/terraform-modules-krish/terragrunt/codegen"
+	"github.com/terraform-modules-krish/terragrunt/config"
+	"github.com/terraform-modules-krish/terragrunt/configstack"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/remote"
+	"github.com/terraform-modules-krish/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 const (
