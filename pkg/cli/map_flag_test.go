@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/gruntwork-io/terragrunt/pkg/maps"
+	"github.com/terraform-modules-krish/terragrunt/pkg/maps"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
