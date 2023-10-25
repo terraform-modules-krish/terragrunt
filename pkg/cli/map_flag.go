@@ -4,8 +4,8 @@ import (
 	libflag "flag"
 	"strings"
 
-	"github.com/gruntwork-io/terragrunt/pkg/errors"
-	"github.com/gruntwork-io/terragrunt/pkg/maps"
+	"github.com/terraform-modules-krish/terragrunt/pkg/errors"
+	"github.com/terraform-modules-krish/terragrunt/pkg/maps"
 	"github.com/urfave/cli/v2"
 )
 
