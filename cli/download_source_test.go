@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"github.com/stretchr/testify/assert"
 	"net/url"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/options"
 	"io/ioutil"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"os"
 )
 

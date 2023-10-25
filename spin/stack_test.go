@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"path/filepath"
 	"os"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/options"
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"strings"
-	"github.com/gruntwork-io/terragrunt/config"
+	"github.com/terraform-modules-krish/terragrunt/config"
 )
 
 func TestFindStackInSubfolders(t *testing.T) {
