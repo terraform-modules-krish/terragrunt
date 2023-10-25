@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gruntwork-io/go-commons/errors"
+	"github.com/terraform-modules-krish/go-commons/errors"
 
 	"github.com/sirupsen/logrus"
 
@@ -20,8 +20,8 @@ import (
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/mattn/go-zglob"
 
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 func Run(opts *options.TerragruntOptions) error {
