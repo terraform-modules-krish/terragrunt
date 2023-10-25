@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terragrunt
+module github.com/terraform-modules-krish/terragrunt
 
 go 1.13
 
@@ -9,7 +9,7 @@ require (
 	github.com/fatih/color v1.9.0
 	github.com/fatih/structs v1.1.0
 	github.com/go-errors/errors v1.0.2-0.20180813162953-d98b870cc4e0
-	github.com/gruntwork-io/terratest v0.26.1
+	github.com/terraform-modules-krish/terratest v0.26.1
 	github.com/hashicorp/go-getter v1.4.2-0.20200106182914-9813cbd4eb02
 	github.com/hashicorp/go-version v1.2.0
 	github.com/hashicorp/hcl/v2 v2.6.0
