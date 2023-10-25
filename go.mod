@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terragrunt
+module github.com/terraform-modules-krish/terragrunt
 
 go 1.13
 
@@ -17,7 +17,7 @@ require (
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/google/shlex v0.0.0-20181106134648-c34317bd91bf
-	github.com/gruntwork-io/terratest v0.32.6
+	github.com/terraform-modules-krish/terratest v0.32.6
 	github.com/hashicorp/go-cleanhttp v0.5.2
 	github.com/hashicorp/go-getter v1.5.7
 	github.com/hashicorp/go-multierror v1.1.1
