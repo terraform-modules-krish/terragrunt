@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/shell"
 )
 
 // Represents the status of a module that we are trying to apply as part of the apply-all or destroy-all command
