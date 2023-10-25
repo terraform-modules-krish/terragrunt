@@ -5,7 +5,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"sync/atomic"
 	"sync"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 func TestAcquireLockHappyPath(t *testing.T) {

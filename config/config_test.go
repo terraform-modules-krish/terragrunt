@@ -2,10 +2,10 @@ package config
 
 import (
 	"testing"
-	"github.com/gruntwork-io/terragrunt/dynamodb"
+	"github.com/terraform-modules-krish/terragrunt/dynamodb"
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/terragrunt/remote"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/remote"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 func TestParseTerragruntConfigDynamoLockMinimalConfig(t *testing.T) {
