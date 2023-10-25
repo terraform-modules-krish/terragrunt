@@ -57,7 +57,7 @@ This configuration will cause Terragrunt to output `Will run Terraform` and then
 to Terraform.
 
 You can learn more about all the various configuration options supported in [the reference docs for the terraform
-block](/docs/reference/config-blocks-and-attributes/#terraform).
+block](https://github.com/terraform-modules-krish/terragrunt/blob/v0.51.6/docs/reference/config-blocks-and-attributes/#terraform).
 
 ### Tflint hook
 
