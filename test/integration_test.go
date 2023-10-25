@@ -8,17 +8,17 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/gruntwork-io/terragrunt/cli"
+	"github.com/terraform-modules-krish/terragrunt/cli"
 	"bytes"
 	"time"
 	"math/rand"
 	"io/ioutil"
 	"path"
-	"github.com/gruntwork-io/terragrunt/remote"
+	"github.com/terraform-modules-krish/terragrunt/remote"
 	"github.com/stretchr/testify/assert"
 	"path/filepath"
-	"github.com/gruntwork-io/terragrunt/config"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/config"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"os"
 )
 
