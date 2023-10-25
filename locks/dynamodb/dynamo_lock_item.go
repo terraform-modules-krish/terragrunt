@@ -6,9 +6,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/locks"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/locks"
+	"github.com/terraform-modules-krish/terragrunt/options"
 	"time"
 )
 
