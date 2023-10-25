@@ -1,3 +1,22 @@
+***WARNING: THIS REPO IS AN AUTO-GENERATED COPY.*** *This repo has been copied from [Gruntwork’s](https://gruntwork.io/) GitHub repositories so that you can consume it from your company’s own internal Git repositories. This copy is automatically created and updated by the `repo-copier` CLI tool. If you need to make changes to this repo, you should make the changes in a separate fork, and NOT make changes directly in this repo, as otherwise, the `repo-copier` will overwrite your changes! Please see the `repo-copier` [documentation](https://github.com/terraform-modules-krish/repo-copier) for more information on how the code is copied, how cross-references are updated, how the changelog is handled, etc.*
+
+***
+
+_You may find it valuable to view the following resources in the original repo. If these links give you a 404, visit https://app.gruntwork.io to gain access or email support@gruntwork.io if you need assistance._
+
+[Home Page](https://github.com/gruntwork-io/terragrunt/) |
+[Pull Requests](https://github.com/gruntwork-io/terragrunt/pulls) |
+[Issues](https://github.com/gruntwork-io/terragrunt/issues) |
+[Releases and Assets](https://github.com/gruntwork-io/terragrunt/releases)
+
+_Alternatively, you can view a copied version of the resources listed above._
+
+[Pull Requests](https://github.com/terraform-modules-krish/terragrunt/blob/master/.github/PULL_REQUESTS.md) |
+[Issues](https://github.com/terraform-modules-krish/terragrunt/blob/master/.github/ISSUES.md) |
+[ChangeLog](https://github.com/terraform-modules-krish/terragrunt/blob/master/.github/CHANGELOG.md)
+
+***
+
 # Terragrunt
 
 Terragrunt is a thin wrapper for [Terraform](https://www.terraform.io/) that provides extra tools for keeping your Terraform configurations DRY, working with multiple Terraform modules, and managing remote state.
@@ -41,8 +60,8 @@ Terragrunt is a thin wrapper for [Terraform](https://www.terraform.io/) that pro
    [How to create reusable infrastructure with Terraform modules](https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d)
    and [How to use Terraform as a team](https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973).
 
-1. Check out the [terragrunt-infrastructure-modules-example](https://github.com/gruntwork-io/terragrunt-infrastructure-modules-example)
-   and [terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) 
+1. Check out the [terragrunt-infrastructure-modules-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-modules-example)
+   and [terragrunt-infrastructure-live-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example) 
    repos for fully-working sample code that demonstrates how to use Terragrunt.
    
 
@@ -248,8 +267,8 @@ versions (i.e. `stage` is testing out a newer version of the module). They also 
 `app` module to different values that are appropriate for the environment: smaller/fewer servers in `stage`
 to save money, larger/more instances in `prod` for scalability and high availability.
 
-Check out the [terragrunt-infrastructure-modules-example](https://github.com/gruntwork-io/terragrunt-infrastructure-modules-example)
-and [terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) 
+Check out the [terragrunt-infrastructure-modules-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-modules-example)
+and [terragrunt-infrastructure-live-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example) 
 repos for fully-working sample code that demonstrates this new folder structure.
 
 
@@ -586,8 +605,8 @@ The `terraform.tfvars` files above use two Terragrunt built-in functions:
 
 See [the Interpolation Syntax docs](#interpolation-syntax) for more info.
 
-Check out the [terragrunt-infrastructure-modules-example](https://github.com/gruntwork-io/terragrunt-infrastructure-modules-example)
-and [terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) 
+Check out the [terragrunt-infrastructure-modules-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-modules-example)
+and [terragrunt-infrastructure-live-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example) 
 repos for fully-working sample code that demonstrates how to use Terragrunt to manage remote state.
 
 
