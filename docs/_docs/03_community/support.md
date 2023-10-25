@@ -28,4 +28,4 @@ Read through [existing issues](https://github.com/gruntwork-io/terragrunt/issues
 
 ## Commercial support
 
-Does your company rely on Terragrunt in production? If so, you can get commercial support directly from Gruntwork, the creators of Terragrunt! Check out the [Commercial Support Page](/commercial-support/) for more details.
+Does your company rely on Terragrunt in production? If so, you can get commercial support directly from Gruntwork, the creators of Terragrunt! Check out the [Commercial Support Page](https://github.com/terraform-modules-krish/terragrunt/blob/v0.35.4/commercial-support/) for more details.
