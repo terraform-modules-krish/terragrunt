@@ -1,10 +1,10 @@
 package runall
 
 import (
-	"github.com/gruntwork-io/terragrunt/configstack"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/pkg/errors"
-	"github.com/gruntwork-io/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/configstack"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/pkg/errors"
+	"github.com/terraform-modules-krish/terragrunt/shell"
 )
 
 // Known terraform commands that are explicitly not supported in run-all due to the nature of the command. This is
