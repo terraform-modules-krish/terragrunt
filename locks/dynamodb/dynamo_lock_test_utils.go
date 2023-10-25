@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/aws/aws-sdk-go/aws"
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/options"
 )
 
 // For simplicity, do all testing in the us-east-1 region

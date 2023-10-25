@@ -3,9 +3,9 @@ package options
 import (
 	"log"
 	"path/filepath"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 // TerragruntOptions represents options that configure the behavior of the Terragrunt program
