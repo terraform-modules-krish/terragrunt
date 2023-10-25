@@ -13,11 +13,11 @@ import (
 
 	"github.com/google/shlex"
 
-	"github.com/gruntwork-io/terragrunt/cli/commands/terraform"
-	"github.com/gruntwork-io/terragrunt/config"
-	"github.com/gruntwork-io/terragrunt/options"
-	tr "github.com/gruntwork-io/terragrunt/terraform"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/cli/commands/terraform"
+	"github.com/terraform-modules-krish/terragrunt/config"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	tr "github.com/terraform-modules-krish/terragrunt/terraform"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 const splitCount = 2

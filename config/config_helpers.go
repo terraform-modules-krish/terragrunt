@@ -19,11 +19,11 @@ import (
 	"github.com/zclconf/go-cty/cty/function"
 	"go.mozilla.org/sops/v3/decrypt"
 
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/terragrunt/aws_helper"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/shell"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/go-commons/errors"
+	"github.com/terraform-modules-krish/terragrunt/aws_helper"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 const noMatchedPats = 1

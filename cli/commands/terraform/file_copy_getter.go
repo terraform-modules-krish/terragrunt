@@ -4,8 +4,8 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/gruntwork-io/go-commons/errors"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/go-commons/errors"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"github.com/hashicorp/go-getter"
 )
 
