@@ -111,7 +111,7 @@ The `terragrunt.hcl` files above use two Terragrunt built-in functions:
 
 See [the Built-in Functions docs]({{site.baseurl}}/docs/features/built-in-functions/#built-in-functions) for more info.
 
-Check out the [terragrunt-infrastructure-modules-example](https://github.com/gruntwork-io/terragrunt-infrastructure-modules-example) and [terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) repos for fully-working sample code that demonstrates how to use Terragrunt to manage remote state.
+Check out the [terragrunt-infrastructure-modules-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-modules-example) and [terragrunt-infrastructure-live-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example) repos for fully-working sample code that demonstrates how to use Terragrunt to manage remote state.
 
 ### Rules for merging parent and child configurations
 
