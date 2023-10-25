@@ -293,7 +293,7 @@ instead of the module repository.**
 
 The `remote_state` block is used to configure how Terragrunt will set up the remote state configuration of your
 Terraform code. You can read more about Terragrunt's remote state functionality in [Keep your remote state configuration
-DRY](/docs/features/keep-your-remote-state-configuration-dry/) use case overview.
+DRY](https://github.com/terraform-modules-krish/terragrunt/blob/v0.38.11/docs/features/keep-your-remote-state-configuration-dry/) use case overview.
 
 The `remote_state` block supports the following arguments:
 
@@ -481,7 +481,7 @@ remote_state {
 The `include` block is used to specify inheritance of Terragrunt configuration files. The included config (also called
 the `parent`) will be merged with the current configuration (also called the `child`) before processing. You can learn
 more about the inheritance properties of Terragrunt in the [Filling in remote state settings with Terragrunt
-section](/docs/features/keep-your-remote-state-configuration-dry/#filling-in-remote-state-settings-with-terragrunt) of the
+section](https://github.com/terraform-modules-krish/terragrunt/blob/v0.38.11/docs/features/keep-your-remote-state-configuration-dry/#filling-in-remote-state-settings-with-terragrunt) of the
 "Keep your remote state configuration DRY" use case overview.
 
 You can have more than one `include` block, but each one must have a unique label. It is recommended to always label
@@ -842,7 +842,7 @@ inputs = {
 ### locals
 
 The `locals` block is used to define aliases for Terragrunt expressions that can be referenced within the configuration.
-You can learn more about locals in the [feature overview](/docs/features/locals/).
+You can learn more about locals in the [feature overview](https://github.com/terraform-modules-krish/terragrunt/blob/v0.38.11/docs/features/locals/).
 
 The `locals` block does not have a defined set of arguments that are supported. Instead, all the arguments passed into
 `locals` are available under the reference `local.ARG_NAME` throughout the Terragrunt configuration.
@@ -867,7 +867,7 @@ inputs = {
 The `dependency` block is used to configure module dependencies. Each dependency block exports the outputs of the target
 module as block attributes you can reference throughout the configuration. You can learn more about `dependency` blocks
 in the [Dependencies between modules
-section](/docs/features/execute-terraform-commands-on-multiple-modules-at-once/#dependencies-between-modules) of the
+section](https://github.com/terraform-modules-krish/terragrunt/blob/v0.38.11/docs/features/execute-terraform-commands-on-multiple-modules-at-once/#dependencies-between-modules) of the
 "Execute Terraform commands on multiple modules at once" use case overview.
 
 You can define more than one `dependency` block. Each label you provide to the block identifies another `dependency`
@@ -1253,7 +1253,7 @@ terragrunt_version_constraint = ">= 0.23"
 ### retryable_errors
 
 The terragrunt `retryable_errors` list can be used to override the default list of retryable errors with your own custom list.
-To learn more about the `retryable_errors` attribute, see the [auto-retry feature overview](/docs/features/auto-retry).
+To learn more about the `retryable_errors` attribute, see the [auto-retry feature overview](https://github.com/terraform-modules-krish/terragrunt/blob/v0.38.11/docs/features/auto-retry).
 
 Example:
 
