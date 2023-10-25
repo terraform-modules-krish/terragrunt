@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/locks/dynamodb"
-	"github.com/gruntwork-io/terragrunt/remote"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/locks/dynamodb"
+	"github.com/terraform-modules-krish/terragrunt/remote"
 	"github.com/stretchr/testify/assert"
 )
 

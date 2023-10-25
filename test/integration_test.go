@@ -11,7 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/defaults"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/gruntwork-io/terragrunt/cli"
+	"github.com/terraform-modules-krish/terragrunt/cli"
 )
 
 // hard-code this to match the test fixture for now
