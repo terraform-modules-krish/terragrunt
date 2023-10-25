@@ -7,11 +7,11 @@ import (
 
 	"github.com/hashicorp/go-getter"
 
-	"github.com/gruntwork-io/terragrunt/cli/tfsource"
-	"github.com/gruntwork-io/terragrunt/config"
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/cli/tfsource"
+	"github.com/terraform-modules-krish/terragrunt/config"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 // manifest for files coped from terragrunt module folder (i.e., the folder that contains the current terragrunt.hcl)
