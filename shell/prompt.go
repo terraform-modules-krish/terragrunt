@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/options"
 )
 
 // Prompt the user for text in the CLI. Returns the text entered by the user.
