@@ -3,7 +3,7 @@ package util
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/terragrunt/test/helpers"
+	"github.com/terraform-modules-krish/terragrunt/test/helpers"
 )
 
 func TestGetPathRelativeTo(t *testing.T) {

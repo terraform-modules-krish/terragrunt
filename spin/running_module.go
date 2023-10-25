@@ -4,7 +4,7 @@ import (
 	"sync"
 	"fmt"
 	"strings"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 // Represents the status of a module that we are trying to apply as part of the spin-up or tear-down command
