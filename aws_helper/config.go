@@ -3,7 +3,7 @@ package aws_helper
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 // Returns an AWS session object for the given region, ensuring that the credentials are available
