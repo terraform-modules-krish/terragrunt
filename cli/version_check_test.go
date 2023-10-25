@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 	"github.com/hashicorp/go-version"
 	"github.com/stretchr/testify/assert"
 	"testing"
