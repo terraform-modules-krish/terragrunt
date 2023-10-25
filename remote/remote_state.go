@@ -1,10 +1,10 @@
 package remote
 
 import (
-	"github.com/gruntwork-io/terragrunt/util"
-	"github.com/gruntwork-io/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/shell"
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 // Configuration for Terraform remote state

@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"time"
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 	"reflect"
 )
 
