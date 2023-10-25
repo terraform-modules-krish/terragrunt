@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/options"
 )
 
 func TestToTerraformRemoteConfigArgs(t *testing.T) {
