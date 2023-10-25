@@ -1,3 +1,22 @@
+***WARNING: THIS REPO IS AN AUTO-GENERATED COPY.*** *This repo has been copied from [Gruntwork’s](https://gruntwork.io/) GitHub repositories so that you can consume it from your company’s own internal Git repositories. This copy is automatically created and updated by the `repo-copier` CLI tool. If you need to make changes to this repo, you should make the changes in a separate fork, and NOT make changes directly in this repo, as otherwise, the `repo-copier` will overwrite your changes! Please see the `repo-copier` [documentation](https://github.com/terraform-modules-krish/repo-copier) for more information on how the code is copied, how cross-references are updated, how the changelog is handled, etc.*
+
+***
+
+_You may find it valuable to view the following resources in the original repo. If these links give you a 404, visit https://app.gruntwork.io to gain access or email support@gruntwork.io if you need assistance._
+
+[Home Page](https://github.com/gruntwork-io/terragrunt/) |
+[Pull Requests](https://github.com/gruntwork-io/terragrunt/pulls) |
+[Issues](https://github.com/gruntwork-io/terragrunt/issues) |
+[Releases and Assets](https://github.com/gruntwork-io/terragrunt/releases)
+
+_Alternatively, you can view a copied version of the resources listed above._
+
+[Pull Requests](https://github.com/terraform-modules-krish/terragrunt/blob/master/.github/PULL_REQUESTS.md) |
+[Issues](https://github.com/terraform-modules-krish/terragrunt/blob/master/.github/ISSUES.md) |
+[ChangeLog](https://github.com/terraform-modules-krish/terragrunt/blob/master/.github/CHANGELOG.md)
+
+***
+
 [![Maintained by Gruntwork.io](https://img.shields.io/badge/maintained%20by-gruntwork.io-%235849a6.svg)](https://gruntwork.io/?ref=repo_terragrunt)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gruntwork-io/terragrunt)](https://goreportcard.com/report/github.com/gruntwork-io/terragrunt)
 [![GoDoc](https://godoc.org/github.com/gruntwork-io/terragrunt?status.svg)](https://godoc.org/github.com/gruntwork-io/terragrunt)
@@ -63,8 +82,8 @@ for a quick introduction to Terragrunt.
    [How to create reusable infrastructure with Terraform modules](https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d)
    and [How to use Terraform as a team](https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973).
 
-1. Check out the [terragrunt-infrastructure-modules-example](https://github.com/gruntwork-io/terragrunt-infrastructure-modules-example)
-   and [terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example)
+1. Check out the [terragrunt-infrastructure-modules-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-modules-example)
+   and [terragrunt-infrastructure-live-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example)
    repos for fully-working sample code that demonstrates how to use Terragrunt.
 
 
@@ -124,7 +143,7 @@ downloading the binary for your OS, renaming it to `terragrunt`, and adding it t
 If you were using Terraform <= 0.11.x with Terragrunt <= 0.18.x, and you wish to upgrade to Terraform 0.12.x newer,
 you'll need to upgrade to Terragrunt 0.19.x or newer. Due to some changes in Terraform 0.12.x, this is a backwards
 incompatible upgrade that requires some manual migration steps. Check out our [Upgrading to Terragrunt 0.19.x 
-Guide](/_docs/migration_guides/upgrading_to_terragrunt_0.19.x.md) for instructions.
+Guide](https://github.com/terraform-modules-krish/terragrunt/blob/v0.19.27/_docs/migration_guides/upgrading_to_terragrunt_0.19.x.md) for instructions.
 
 ## Required terraform version
 
@@ -316,8 +335,8 @@ When Terragrunt finds the `terraform` block with a `source` parameter in `live/s
    prod.  
 
 
-Check out the [terragrunt-infrastructure-modules-example](https://github.com/gruntwork-io/terragrunt-infrastructure-modules-example)
-and [terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example)
+Check out the [terragrunt-infrastructure-modules-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-modules-example)
+and [terragrunt-infrastructure-live-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example)
 repos for fully-working sample code that demonstrates this new folder structure.
 
 
@@ -566,8 +585,8 @@ The `terragrunt.hcl` files above use two Terragrunt built-in functions:
 
 See [the Built-in Functions docs](#built-in-functions) for more info.
 
-Check out the [terragrunt-infrastructure-modules-example](https://github.com/gruntwork-io/terragrunt-infrastructure-modules-example)
-and [terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example)
+Check out the [terragrunt-infrastructure-modules-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-modules-example)
+and [terragrunt-infrastructure-live-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example)
 repos for fully-working sample code that demonstrates how to use Terragrunt to manage remote state.
 
 
