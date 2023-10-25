@@ -1,8 +1,8 @@
 package spin
 
 import (
-	"github.com/gruntwork-io/terragrunt/util"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 // Check for dependency cycles in the given list of modules and return an error if one is found
