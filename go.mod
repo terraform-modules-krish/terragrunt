@@ -1,4 +1,4 @@
-module github.com/gruntwork-io/terragrunt
+module github.com/terraform-modules-krish/terragrunt
 
 go 1.13
 
@@ -15,7 +15,7 @@ require (
 	github.com/go-errors/errors v1.0.2-0.20180813162953-d98b870cc4e0
 	github.com/go-test/deep v1.0.7 // indirect
 	github.com/google/shlex v0.0.0-20181106134648-c34317bd91bf
-	github.com/gruntwork-io/terratest v0.32.6
+	github.com/terraform-modules-krish/terratest v0.32.6
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-getter v1.5.1
 	github.com/hashicorp/go-multierror v1.1.1
