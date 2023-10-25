@@ -64,7 +64,7 @@ dependency order (unless the command is destroy, in which case the command is
 run in reverse dependency order).
 
 Make sure to read [Execute Terraform
-commands on multiple modules at once](/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
+commands on multiple modules at once](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
 context.
 
 Example:
@@ -75,8 +75,8 @@ terragrunt run-all apply
 
 This will recursively search the current working directory for any folders that contain Terragrunt modules and run
 `apply` in each one, concurrently, while respecting ordering defined via
-[`dependency`](/docs/reference/config-blocks-and-attributes/#dependency) and
-[`dependencies`](/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
+[`dependency`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependency) and
+[`dependencies`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
 
 **[WARNING] Using `run-all` with `plan` is currently broken for certain use cases**. If you have a stack of Terragrunt modules with
 dependencies between them—either via `dependency` blocks or `terraform_remote_state` data sources—and you've never
@@ -92,7 +92,7 @@ information](https://github.com/gruntwork-io/terragrunt/issues/720#issuecomment-
 **DEPRECATED: Use `run-all plan` instead.**
 
 Display the plans of a 'stack' by running 'terragrunt plan' in each subfolder. Make sure to read [Execute Terraform
-commands on multiple modules at once](/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
+commands on multiple modules at once](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
 context.
 
 Example:
@@ -103,8 +103,8 @@ terragrunt plan-all
 
 This will recursively search the current working directory for any folders that contain Terragrunt modules and run
 `plan` in each one, concurrently, while respecting ordering defined via
-[`dependency`](/docs/reference/config-blocks-and-attributes/#dependency) and
-[`dependencies`](/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
+[`dependency`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependency) and
+[`dependencies`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
 
 **[WARNING] `plan-all` is currently broken for certain use cases**. If you have a stack of Terragrunt modules with
 dependencies between them—either via `dependency` blocks or `terraform_remote_state` data sources—and you've never
@@ -118,7 +118,7 @@ information](https://github.com/gruntwork-io/terragrunt/issues/720#issuecomment-
 **DEPRECATED: Use `run-all apply` instead.**
 
 Apply a 'stack' by running 'terragrunt apply' in each subfolder. Make sure to read [Execute Terraform
-commands on multiple modules at once](/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
+commands on multiple modules at once](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
 context.
 
 Example:
@@ -129,15 +129,15 @@ terragrunt apply-all
 
 This will recursively search the current working directory for any folders that contain Terragrunt modules and run
 `apply` in each one, concurrently, while respecting ordering defined via
-[`dependency`](/docs/reference/config-blocks-and-attributes/#dependency) and
-[`dependencies`](/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
+[`dependency`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependency) and
+[`dependencies`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
 
 ### output-all (DEPRECATED: use run-all)
 
 **DEPRECATED: Use `run-all output` instead.**
 
 Display the outputs of a 'stack' by running 'terragrunt output' in each subfolder. Make sure to read [Execute Terraform
-commands on multiple modules at once](/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
+commands on multiple modules at once](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
 context.
 
 Example:
@@ -148,8 +148,8 @@ terragrunt output-all
 
 This will recursively search the current working directory for any folders that contain Terragrunt modules and run
 `output` in each one, concurrently, while respecting ordering defined via
-[`dependency`](/docs/reference/config-blocks-and-attributes/#dependency) and
-[`dependencies`](/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
+[`dependency`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependency) and
+[`dependencies`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
 
 **[WARNING] `output-all` is currently broken for certain use cases**. If you have a stack of Terragrunt modules with
 dependencies between them—either via `dependency` blocks or `terraform_remote_state` data sources—and you've never
@@ -162,7 +162,7 @@ information](https://github.com/gruntwork-io/terragrunt/issues/720#issuecomment-
 **DEPRECATED: Use `run-all destroy` instead.**
 
 Destroy a 'stack' by running 'terragrunt destroy' in each subfolder. Make sure to read [Execute Terraform
-commands on multiple modules at once](/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
+commands on multiple modules at once](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
 context.
 
 Example:
@@ -173,15 +173,15 @@ terragrunt destroy-all
 
 This will recursively search the current working directory for any folders that contain Terragrunt modules and run
 `destroy` in each one, concurrently, while respecting ordering defined via
-[`dependency`](/docs/reference/config-blocks-and-attributes/#dependency) and
-[`dependencies`](/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
+[`dependency`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependency) and
+[`dependencies`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
 
 ### validate-all (DEPRECATED: use run-all)
 
 **DEPRECATED: Use `run-all validate` instead.**
 
 Validate 'stack' by running 'terragrunt validate' in each subfolder. Make sure to read [Execute Terraform
-commands on multiple modules at once](/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
+commands on multiple modules at once](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/features/execute-terraform-commands-on-multiple-modules-at-once/) for
 context.
 
 Example:
@@ -192,8 +192,8 @@ terragrunt validate-all
 
 This will recursively search the current working directory for any folders that contain Terragrunt modules and run
 `validate` in each one, concurrently, while respecting ordering defined via
-[`dependency`](/docs/reference/config-blocks-and-attributes/#dependency) and
-[`dependencies`](/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
+[`dependency`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependency) and
+[`dependencies`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependencies) blocks.
 
 ### terragrunt-info
 
@@ -275,8 +275,8 @@ terragrunt graph-dependencies
 ```
 
 This will recursively search the current working directory for any folders that contain Terragrunt modules and build
-the dependency graph based on [`dependency`](/docs/reference/config-blocks-and-attributes/#dependency) and
-[`dependencies`](/docs/reference/config-blocks-and-attributes/#dependencies) blocks. This may produce output such as:
+the dependency graph based on [`dependency`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependency) and
+[`dependencies`](https://github.com/terraform-modules-krish/terragrunt/blob/v0.28.14/docs/reference/config-blocks-and-attributes/#dependencies) blocks. This may produce output such as:
 
 ```
 digraph {
