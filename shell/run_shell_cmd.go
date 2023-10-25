@@ -4,8 +4,8 @@ import (
 	"os"
 	"os/exec"
 	"strings"
-	"github.com/gruntwork-io/terragrunt/util"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 )
 
 // Run the specified shell command with the specified arguments. Connect the command's stdin, stdout, and stderr to
