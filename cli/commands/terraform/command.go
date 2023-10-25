@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/pkg/cli"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/pkg/cli"
 )
 
 const (
