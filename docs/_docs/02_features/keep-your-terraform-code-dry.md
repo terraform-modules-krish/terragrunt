@@ -155,7 +155,7 @@ When Terragrunt finds the `terraform` block with a `source` parameter in `live/s
 
 4.  Pass any variables defined in the `inputs = { …​ }` block as environment variables (prefixed with `TF_VAR_` to your Terraform code. Notice how the `inputs` block in `stage/app/terragrunt.hcl` deploys fewer and smaller instances than prod.
 
-Check out the [terragrunt-infrastructure-modules-example](https://github.com/gruntwork-io/terragrunt-infrastructure-modules-example) and [terragrunt-infrastructure-live-example](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example) repos for fully-working sample code that demonstrates this new folder structure.
+Check out the [terragrunt-infrastructure-modules-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-modules-example) and [terragrunt-infrastructure-live-example](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example) repos for fully-working sample code that demonstrates this new folder structure.
 
 ### Achieve DRY Terraform code and immutable infrastructure
 
@@ -245,7 +245,7 @@ Note: In automated pipelines, you may need to run the following command for your
 ### DRY common Terraform code with Terragrunt generate blocks
 
 Terragrunt has the ability to generate code in to the downloaded remote Terraform modules before calling out to
-`terraform` using the [generate block](/docs/reference/config-blocks-and-attributes#generate). This can be used to
+`terraform` using the [generate block](https://github.com/terraform-modules-krish/terragrunt/blob/v0.29.4/docs/reference/config-blocks-and-attributes#generate). This can be used to
 inject common terraform configurations into all the modules that you use.
 
 For example, it is common to have custom provider configurations in your code to customize authentication. Consider a
