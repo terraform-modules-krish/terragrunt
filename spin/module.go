@@ -1,14 +1,14 @@
 package spin
 
 import (
-	"github.com/gruntwork-io/terragrunt/config"
+	"github.com/terraform-modules-krish/terragrunt/config"
 	"path/filepath"
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 	"strings"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/util"
-	"github.com/gruntwork-io/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/shell"
 )
 
 // Represents a single module (i.e. folder with Terraform templates), including the Terragrunt configuration for that
