@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gruntwork-io/terragrunt/config"
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/locks"
-	"github.com/gruntwork-io/terragrunt/remote"
-	"github.com/gruntwork-io/terragrunt/shell"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/config"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/locks"
+	"github.com/terraform-modules-krish/terragrunt/remote"
+	"github.com/terraform-modules-krish/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/util"
 	"github.com/urfave/cli"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/spin"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/spin"
 	"path/filepath"
 )
 
