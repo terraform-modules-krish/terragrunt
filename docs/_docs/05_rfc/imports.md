@@ -74,7 +74,7 @@ all the permutations defined as variables.
 The current workaround for this use case is to specify the variables in `json` or `yaml` and merge them into the
 `inputs` attribute of the root `terragrunt.hcl` file using the `jsondecode` / `yamldecode` function with `merge`. While
 this works, the configuration becomes fairly verbose as you try to workaround the fact that not all directories will
-have all the yaml files in the hierarchy. See [this example config](https://github.com/gruntwork-io/terragrunt-infrastructure-live-example/blob/b796c371f631b9ba42189fef744601cdd16d48f5/non-prod/terragrunt.hcl#L30).
+have all the yaml files in the hierarchy. See [this example config](https://github.com/terraform-modules-krish/terragrunt-infrastructure-live-example/blob/b796c371f631b9ba42189fef744601cdd16d48f5/non-prod/terragrunt.hcl#L30).
 
 Another limitation of `yaml` and `json` is that they are static configurations. This means that you can't share
 complex variables in the middle of the hierarchy that might require more computation than hard coded values. For
