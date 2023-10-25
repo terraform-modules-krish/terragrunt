@@ -3,7 +3,7 @@ package remote
 import (
 	"testing"
 	"github.com/stretchr/testify/assert"
-	"github.com/gruntwork-io/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/errors"
 	"encoding/json"
 )
 
