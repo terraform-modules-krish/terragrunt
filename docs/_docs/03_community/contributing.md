@@ -55,7 +55,7 @@ stays up to date and allows you to think through the problem at a high level bef
 coding.
 
 The documentation is built with Jekyll and hosted on the Github Pages from `docs` folder on `master` branch. Check out
-[Terragrunt website](https://github.com/gruntwork-io/terragrunt/tree/master/docs#working-with-the-documentation) to
+[Terragrunt website](https://github.com/terraform-modules-krish/terragrunt/tree/master/docs#working-with-the-documentation) to
 learn more about working with the documentation.
 
 ### Update the tests
