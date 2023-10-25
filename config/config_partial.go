@@ -8,9 +8,9 @@ import (
 	"github.com/hashicorp/hcl/v2/hclparse"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/pkg/errors"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/pkg/errors"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 // PartialDecodeSectionType is an enum that is used to list out which blocks/sections of the terragrunt config should be

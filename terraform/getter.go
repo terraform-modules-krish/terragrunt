@@ -16,8 +16,8 @@ import (
 	"github.com/hashicorp/go-getter"
 	safetemp "github.com/hashicorp/go-safetemp"
 
-	"github.com/gruntwork-io/terragrunt/pkg/errors"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/pkg/errors"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 // httpClient is the default client to be used by HttpGetters.
