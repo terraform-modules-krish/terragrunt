@@ -2,7 +2,7 @@ package config
 
 import (
 	"fmt"
-	"github.com/gruntwork-io/terragrunt/shell"
+	"github.com/terraform-modules-krish/terragrunt/shell"
 	"github.com/hashicorp/hcl2/hcl"
 	tflang "github.com/hashicorp/terraform/lang"
 	"github.com/zclconf/go-cty/cty/function"
@@ -11,9 +11,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials/stscreds"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sts"
-	"github.com/gruntwork-io/terragrunt/errors"
-	"github.com/gruntwork-io/terragrunt/options"
-	"github.com/gruntwork-io/terragrunt/util"
+	"github.com/terraform-modules-krish/terragrunt/errors"
+	"github.com/terraform-modules-krish/terragrunt/options"
+	"github.com/terraform-modules-krish/terragrunt/util"
 )
 
 // List of terraform commands that accept -lock-timeout
